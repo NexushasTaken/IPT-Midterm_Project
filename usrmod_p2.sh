@@ -1,8 +1,6 @@
 #!/bin/bash
 sub_command=$1
 
-sudo userdel -r $2
-
 case $sub_command in
   create)
     sudo useradd $2
